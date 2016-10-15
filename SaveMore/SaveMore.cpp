@@ -43,7 +43,6 @@ int BankAccount::deposit(double dAccount)
 	}
 	else
 	{
-		cout << "Unable to Process transaction" << endl;
 		return -1;
 	}
 }
@@ -57,7 +56,6 @@ int BankAccount::withdraw(double wAccount)
 	}
 	else
 	{
-		cout << "You don't have money for that!!" << endl;
 		return -1;
 	}
 }
